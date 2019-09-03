@@ -1,32 +1,23 @@
 # Node Cron
 
-[![npm](https://img.shields.io/npm/l/node-cron.svg)](https://github.com/merencia/node-cron/blob/master/LICENSE.md)
-[![npm](https://img.shields.io/npm/v/node-cron.svg)](https://img.shields.io/npm/v/node-cron.svg)
-[![Coverage Status](https://coveralls.io/repos/github/node-cron/node-cron/badge.svg?branch=master)](https://coveralls.io/github/node-cron/node-cron?branch=master)
-[![Code Climate](https://codeclimate.com/github/node-cron/node-cron/badges/gpa.svg)](https://codeclimate.com/github/merencia/node-cron)
-[![Build Status](https://travis-ci.org/node-cron/node-cron.svg?branch=master)](https://travis-ci.org/merencia/node-cron)
-[![Dependency Status](https://david-dm.org/node-cron/node-cron.svg)](https://david-dm.org/merencia/node-cron)
-[![devDependency Status](https://david-dm.org/node-cron/node-cron/dev-status.svg)](https://david-dm.org/merencia/node-cron#info=devDependencies)
-[![Backers on Open Collective](https://opencollective.com/node-cron/backers/badge.svg)](#backers) 
-[![Sponsors on Open Collective](https://opencollective.com/node-cron/sponsors/badge.svg)](#sponsors) 
 
-The node-cron module is tiny task scheduler in pure JavaScript for node.js based on [GNU crontab](https://www.gnu.org/software/mcron/manual/html_node/Crontab-file.html). This module allows you to schedule task in node.js using full crontab syntax.
+The node-cron-new module is tiny task scheduler in pure JavaScript for node.js based on [GNU crontab](https://www.gnu.org/software/mcron/manual/html_node/Crontab-file.html). This module allows you to schedule task in node.js using full crontab syntax.
 
 [![NPM](https://nodei.co/npm/node-cron.png?downloads=true&downloadRank=true&stars=false)](https://nodei.co/npm/node-cron/)
 
 
 ## Getting Started
 
-Install node-cron using npm:
+Install node-cron-new using npm:
 
 ```console
-$ npm install --save node-cron
+$ npm install --save node-cron-new
 ```
 
-Import node-cron and schedule a task:
+Import node-cron-new and schedule a task:
 
 ```javascript
-var cron = require('node-cron');
+var cron = require('node-cron-new');
 
 cron.schedule('* * * * *', () => {
   console.log('running a task every minute');
@@ -35,7 +26,7 @@ cron.schedule('* * * * *', () => {
 
 ## Cron Syntax
 
-This is a quick reference to cron syntax and also shows the options supported by node-cron.
+This is a quick reference to cron syntax and also shows the options supported by node-cron-new.
 
 ### Allowed fields
 
